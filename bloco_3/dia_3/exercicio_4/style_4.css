@@ -28,4 +28,7 @@ div:nth-child(6) {
 div:nth-child(7) {
   color: fuchsia;
 }
-
+ 
+h3:nth-of-type(odd) {
+  font-family: monospace;
+}
