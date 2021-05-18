@@ -7,6 +7,10 @@ body {
   background-color: #fdfaf6;
 }
 
+a {
+  text-decoration: inherit;
+}
+
 #header {
   background-color: #064420;
   height: 100px;
@@ -18,4 +22,26 @@ body {
   font-size: 56px;
   padding: 15px;
   text-align: center;
+}
+
+#navbar {
+  background-color: #e4efe7;
+  box-shadow: 3px 2px 2px #21212128;
+  text-align: center;
+}
+
+#navbar li {
+  color: #212121;
+  display: inline-block;
+  font-family: 'Newsreader', serif;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  position: relative;
+}
+
+#navbar li:hover {
+  color: #064420;
+  text-decoration: underline;
 }
