@@ -1,0 +1,34 @@
+div:hover {
+  border: 1px solid red;
+}
+
+h3:nth-child(odd) {
+  font-style: italic;
+}
+
+div:nth-child(3) {
+  color: aqua;
+}
+
+div:nth-child(4) {
+  color: blueviolet;
+}
+
+div:nth-child(5) {
+  background-color: green;
+  color: coral;
+  width: 1000px;
+  height: 100px;
+}
+
+div:nth-child(6) {
+  color: darkblue;
+}
+
+div:nth-child(7) {
+  color: fuchsia;
+}
+ 
+h3:nth-of-type(odd) {
+  font-family: monospace;
+}
