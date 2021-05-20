@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  background-color: seashell;
+}
+
+h1 {
+  font-size: 65px;
+  font-family: sans-serif;
+  text-align: center;
+  color: orange
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+  font-style: italic;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: teal;
+}
+
+ul {
+  background-color: gray;
+}
+
+.fav-color {
+  color: crimson;
+}
+
+#yellow {
+  color: yellow;
+}
+
+#red {
+  color: red;
+}
+
+#brown {
+  color: brown;
+}
