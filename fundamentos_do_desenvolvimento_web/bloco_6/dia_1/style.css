@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#header-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.personal-data-div {
+  margin: 20px;
+}
+
+.personal-data-input {
+  border-width: 1px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  padding: 5px;
+  width: 30%;
+}
+
+input {
+  display: block;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+textarea {
+  display: block;
+}
+
+#descricao-cargo {
+  width: 50%;
+}
