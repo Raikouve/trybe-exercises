@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Currículo</title>
+  </head>
+  <body>
+    <header id="header-content">
+      <h1>Conte-nos sobre você!</h1>
+    </header>
+
+    <main>
+      <form>
+        <fieldset class="mb-3" id="personal-data">
+          <div class="personal-data-div">
+            <label class="form-label" for="nome">Nome</label>
+            <input class="form-control"
+              type="text"
+              id="nome"
+              class="personal-data-input"
+              maxlength="40"
+              required
+            />
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-control"
+              type="email"
+              id="email"
+              class="personal-data-input"
+              maxlength="50"
+              required
+            />
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="cpf">CPF</label>
+            <input class="form-control"
+              type="text"
+              id="cpf"
+              class="personal-data-input"
+              maxlength="11"
+              required
+            />
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="endereco">Endereço</label>
+            <input class="form-control"
+              type="text"
+              id="endereco"
+              class="personal-data-input"
+              maxlength="200"
+              required
+            />
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="cidade">Cidade</label>
+            <input class="form-control"
+              type="text"
+              id="cidade"
+              class="personal-data-input"
+              maxlength="28"
+              required
+            />
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="estado">Estado</label>
+            <select class="form-select" name="estado" id="estado" required></select>
+          </div>
+          <div id="radios" class="personal-data-div form-check">
+            <label id="firstLabel" class="form-label form-check-label" for="home">Casa</label>
+            <input
+              type="radio"
+              name="home"
+              id="home"
+              class="input-radio form-check-input"
+              checked
+            />
+            <label for="home">Apartamento</label>
+            <input type="radio" name="home" id="home" class="input-radio" />
+          </div>
+        </fieldset>
+        <fieldset class="mb-3" id="last-job">
+          <div class="personal-data-div mb-3">
+            <label class="form-label" for="resumo">Resumo Do Currículo</label>
+            <textarea class="form-control"
+              name="resumo"
+              id="resumo"
+              rows="3"
+              maxlength="1000"
+              required
+            ></textarea>
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="cargo">Cargo</label>
+            <input class="form-control"
+              type="text"
+              id="cargo"
+              class="personal-data-input"
+              maxlength="40"
+              required
+            />
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="descricao-cargo">Descrição do Cargo</label>
+            <input class="form-control"
+              type="text"
+              id="descricao-cargo"
+              class="personal-data-input"
+              maxlength="500"
+              required
+            />
+          </div>
+          <div class="personal-data-div">
+            <label class="form-label" for="data">Data de Início</label>
+            <input class="form-control" type="text" id="data" class="personal-data-input" required />
+          </div>
+        </fieldset>
+        <div id="buttons">
+          <button id="enviar" class="btn btn-success">Enviar</button>
+          <button id="limpar" class="btn btn-warning">Limpar</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
