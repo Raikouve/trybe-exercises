@@ -1,0 +1,15 @@
+.Component {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 400px;
+}
+
+.Component h1 {
+  color: crimson;
+}
+
+.Component p {
+  color: brown;
+}
