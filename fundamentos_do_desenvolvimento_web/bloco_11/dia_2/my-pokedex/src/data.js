@@ -97,7 +97,40 @@ const pokemons = [
       },
       image: "https:\/\/cdn2.bulbagarden.net/upload/2/2c/Spr_5b_148.png",
       moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
-  }
+  },
+  {
+    id: 26,
+    name: "Raichu",
+    type: 'Electric',
+    averageWeight: {
+        value: 30,
+        measurementUnit: "kg"
+    },
+    image: "https://cdn2.bulbagarden.net/upload/d/d0/Spr_5b_026_m.png",
+    moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
+},
+{
+  id: 7,
+  name: "Squirtle",
+  type: 'Water',
+  averageWeight: {
+      value: 9.0,
+      measurementUnit: "kg"
+  },
+  image: "https://cdn2.bulbagarden.net/upload/5/59/Spr_5b_007.png",
+  moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
+},
+{
+  id: 52,
+  name: "Meowth",
+  type: 'Normal',
+  averageWeight: {
+      value: 4.2,
+      measurementUnit: "kg"
+  },
+  image: "https://cdn2.bulbagarden.net/upload/9/93/Spr_5b_052.png",
+  moreInfo: "https:\/\/bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
+}
 ];
 
 export default pokemons;

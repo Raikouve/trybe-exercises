@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: rgb(255, 252, 250);
 }
 
 .pokedex-title {
@@ -29,5 +29,12 @@ body {
   justify-content: center;
   margin: 10px;
   padding: 10px;
+  text-align: center;
+  transition: 300ms ease;
   width: 150px;
+}
+
+.pokemon:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
 }
