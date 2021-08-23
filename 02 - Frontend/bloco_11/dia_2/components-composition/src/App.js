@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1> Orders recently created </h1>
-        {users.map((user) => <Order user={user.user} product={user.product} price={user.price} />)}
+        {users.map((user, index) => <Order key={ index } user={user.user} product={user.product} price={user.price} />)}
       </div>
     );
   }
