@@ -4,6 +4,7 @@
 
     ghost:
       image: ghost:1-alpine
+      restart: always
       ports:
         - 2368:2368
       depends_on:
@@ -15,8 +16,21 @@
         database__connection__user: root
         database__connection__password: example
         database__connection__database: ghost
+      networks:
+        - my_network
 
     db:
       image: mysql:5.7
+      restart: always
       environment:
         MYSQL_ROOT_PASSWORD: ${example}
+      volumes:
+        - db_data:/var/lib/mysql
+      networks:
+        - my_network
+
+    volumes:
+      db_data:
+
+    networks:
+      my_network:
