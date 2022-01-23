@@ -1,0 +1,1 @@
+SELECT ROUND (15 + (RAND() * 5)) AS 'valor aleatório';

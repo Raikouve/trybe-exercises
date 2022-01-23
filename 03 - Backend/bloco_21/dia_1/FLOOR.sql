@@ -1,0 +1,1 @@
+SELECT FLOOR(39.494) AS 'valor arredondado para baixo';

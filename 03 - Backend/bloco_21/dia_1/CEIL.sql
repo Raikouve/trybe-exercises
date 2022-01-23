@@ -1,0 +1,1 @@
+SELECT CEIL(85.234) AS 'valor arredondado para cima';
